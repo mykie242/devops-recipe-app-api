@@ -5,10 +5,10 @@ on:
     secrets:
       DOCKERHUB_USER:
         required: true
-        description: "Username for Dockerhub auth"
+        description: "Username for DockerHub auth"
       DOCKERHUB_TOKEN:
         required: true
-        description: "Token for Dockerhub auth"
+        description: "Token for DockerHub auth"
 
 jobs:
   python:
